@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 rm -f /var/run/rsyslogd.pid
-rm -f /var/run/teamd/*:x
+rm -f /var/run/teamd/*
 
 supervisorctl start rsyslogd
 
